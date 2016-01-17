@@ -279,7 +279,7 @@ img.img-circle.team-img {
 
 /* Services Section */
 #tf-services{
-	padding: 80px 0;
+	/*padding: 80px 0;*/
 }
 
 .space{
@@ -338,7 +338,7 @@ img.img-circle.team-img {
 /* Gallery Section 
 ==============================*/
 #tf-works{
-	padding: 80px 0;
+	/*padding: 80px 0;*/
 }
 .categories{ 
 	padding: 10px 0;
@@ -482,7 +482,7 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Contact Section */
 #tf-contact{
-	padding: 80px 0;
+	/*padding: 80px 0;*/
 }
 
 label {
