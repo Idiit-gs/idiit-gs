@@ -88,6 +88,50 @@ function main() {
         });
 
   	});
+    
+    $(".service").on("mouseover", function(){
+      var id = $(this).attr("id");
+      switch (id)
+      {
+          case "management-information-system":
+          {
+            $("#mis").attr("src", "img/icons/Management-Information-System/Management_white.png")
+            break;
+          }
+          case "multiplatform-application-development":
+          {
+            $("#mad").attr("src", "img/icons/Multiplatform-Application-Development/multiplatform-white.png")
+            break;
+          }
+          case "Managed-Wireless-Hotspot":
+          {
+            $("#mwh").attr("src", "img/icons/Managed-Wireless-Hotspot/hotspot-white.png")
+            break;
+          }
+      }
+    });
+
+    $(".service").on("mouseout", function(){
+      var id = $(this).attr("id");
+      switch (id)
+      {
+          case "management-information-system":
+          {
+            $("#mis").attr("src", "img/icons/Management-Information-System/Management_black.png")
+            break;
+          }
+          case "multiplatform-application-development":
+          {
+            $("#mad").attr("src", "img/icons/Multiplatform-Application-Development/multiplatform-black.png")
+            break;
+          }          
+          case "Managed-Wireless-Hotspot":
+          {
+            $("#mwh").attr("src", "img/icons/Managed-Wireless-Hotspot/hotspot-blac.png")
+            break;
+          }
+      }
+    });
 
   	/*====================================
     Portfolio Isotope Filter
