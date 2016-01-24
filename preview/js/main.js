@@ -107,6 +107,31 @@ function main() {
           {
             $("#mwh").attr("src", "img/icons/Managed-Wireless-Hotspot/hotspot-white.png")
             break;
+          }       
+          case "Car-Tracking":
+          {
+            $("#ct").attr("src", "img/icons/Car-tracking-for-Fleet-Management/tracng-white.png")
+            break;
+          }     
+          case "CCTV":
+          {
+            $("#cc").attr("src", "img/icons/CCTV-Installation-and-Management/cctv-white.png")
+            break;
+          }
+          case "Networking":
+          {
+            $("#n").attr("src", "img/icons/Networking/Network_white.png")
+            break;
+          }
+          case "Project-Management":
+          {
+            $("#pm").attr("src", "img/icons/Project_Management/PM_white.png")
+            break;
+          }
+          case "Consultancy":
+          {
+            $("#c").attr("src", "img/icons/Consultancy/consultancy_white.png")
+            break;
           }
       }
     });
@@ -128,6 +153,31 @@ function main() {
           case "Managed-Wireless-Hotspot":
           {
             $("#mwh").attr("src", "img/icons/Managed-Wireless-Hotspot/hotspot-blac.png")
+            break;
+          }         
+          case "Car-Tracking":
+          {
+            $("#ct").attr("src", "img/icons/Car-tracking-for-Fleet-Management/tracng-blac.png")
+            break;
+          } 
+          case "CCTV":
+          {
+            $("#cc").attr("src", "img/icons/CCTV-Installation-and-Management/cctv-blac.png")
+            break;
+          }
+          case "Networking":
+          {
+            $("#n").attr("src", "img/icons/Networking/Network_black.png")
+            break;
+          }
+          case "Project-Management":
+          {
+            $("#pm").attr("src", "img/icons/Project_Management/PM_blac.png")
+            break;
+          }
+          case "Consultancy":
+          {
+            $("#c").attr("src", "img/icons/Consultancy/consultancy_black.png")
             break;
           }
       }
